@@ -3,6 +3,8 @@ import 'package:provider/provider.dart';
 import 'package:lock_in/providers/habit_provider.dart';
 import 'package:lock_in/widgets/common/habit_card.dart';
 import 'package:lock_in/config/routes.dart';
+import 'package:lock_in/providers/theme_provider.dart';
+import 'package:lock_in/models/habit.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);

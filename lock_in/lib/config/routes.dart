@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:lock_in/screens/home/home_screen.dart';
-import 'package:lock_in/screens/habits/habits_screen.dart';
+import 'package:lock_in/screens/habits/habit_screen.dart';
 import 'package:lock_in/screens/focus/focus_screen.dart';
 import 'package:lock_in/screens/progress/progress_screen.dart';
-import 'package:lock_in/screens/journal/journal_screen.dart';
+
+
 
 class AppRoutes {
   static const String home = '/';
@@ -17,6 +18,6 @@ class AppRoutes {
         habits: (context) => const HabitsScreen(),
         focus: (context) => const FocusScreen(),
         progress: (context) => const ProgressScreen(),
-        journal: (context) => const JournalScreen(),
+        
       };
 }

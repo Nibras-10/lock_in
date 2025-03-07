@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:lock_in/providers/habit_provider.dart';
 import 'package:lock_in/widgets/common/habit_card.dart';
 import 'package:lock_in/screens/habits/add_habit_screen.dart';
+import 'package:lock_in/models/habit.dart';
 
 class HabitsScreen extends StatelessWidget {
   const HabitsScreen({Key? key}) : super(key: key);
